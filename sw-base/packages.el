@@ -15,6 +15,7 @@
 (setq sw-base-packages
     '(
       ;; package names go here
+      atom-one-dark-theme
       gruvbox-theme
       ))
 
@@ -30,5 +31,7 @@
 ;; Often the body of an initialize function uses `use-package'
 ;; For more info on `use-package', see readme:
 ;; https://github.com/jwiegley/use-package
-(defun sw-base/init-gruvbox-theme ()
-  (use-package gruvbox-theme))
+(defun sw-base/init-atom-one-dark-theme ()
+  (use-package atom-one-dark-theme))
+;;(defun sw-base/init-gruvbox-theme ()
+;;  (use-package gruvbox-theme))
